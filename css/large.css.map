@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,MAAM;CAAG;;AAErB,AACI,WADO,CACP,gBAAgB,CAAC;EACb,SAAS,EAAE,IAAI;CAAG",
+    "sources": [
+        "../sass/large.sass"
+    ],
+    "names": [],
+    "file": "large.css"
+}

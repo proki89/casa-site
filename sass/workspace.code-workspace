@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "casa",
+			"path": ".."
+		},
+		{
+			"name": "dist",
+			"path": "../../../../Downloads/hamburgers-master/dist"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "casa"
+	}
+}

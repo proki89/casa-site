@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa De la Musica</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald&display=swap"
+    rel="stylesheet">
+  <link href="dist/hamburgers.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="/css/animate.css">
+  <link href="/css/lightbox.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" media='screen and (min-width: 576px)' href="./css/small.css">
+  <link rel="stylesheet" media='screen and (min-width: 768px)' href="./css/medium.css">
+  <link rel="stylesheet" media='screen and (min-width: 992px)' href="./css/large.css">
+  <link rel="stylesheet" media='screen and (min-width: 2000px)' href="./css/extra-large.css">
+  <script src="https://kit.fontawesome.com/c9d199cd34.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <a class="navbar-brand" href="#">
+      <span class="casa-color">Casa</span> de la <span class="musica-color">Musica</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon">
+        <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#aboutus">O nas</a>
+        <a class="nav-link" href="#gallery">Galeria</a>
+        <a class="nav-link" href="#drink-card">Menu</a>
+        <a class="nav-link" href="https://emenago.com/inner/cart/253/d98e623be454411e02a73b14ff93fb52/pl"
+          target="_blank"><span class="casa-color">Rezerwacje</span></a>
+        <a class="nav-link" href="#contact">Kontakt</a>
+
+      </div>
+    </div>
+  </nav>
+  <!-- ICON BAR -->
+  <div class="icon-bar">
+    <a href="https://facebook.com/casadelamusica.wroclaw" target="_blank" class="facebook"><i
+        class="fa fa-facebook"></i></a>
+
+  </div>
+  <!-- HEADER -->
+  <header id="home">
+    <div class="hero-img">
+      <div class="hero-shadow"></div>
+      <div class="hero-text">
+        <h1 class="os-animation" data-animation="bounceInUp" data-delay=".5s">Witajcie w Casa de la Musica!</h1>
+        <p class="os-animation" data-animation="zoomIn" data-delay=".9s">kubański klimat w sercu Wrocławia.</p>
+        <img src="/img/logo.svg" alt="logo">
+        <a href="#aboutus"><i class="fa fa-chevron-down os-animation" data-animation='bounceInUp' data-delay='.9s'
+            aria-hidden="true"></i></a>
+      </div>
+  </header>
+  <!-- ABOUT US -->
+  <section id="aboutus" class="scroll-fix">
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="banner-shadow"></div>
+      <h1 class="text-center about-title os-animation visibility" data-animation="fadeIn" data-delay=".5s">O NAS</h1>
+      <div class="underline"></div>
+      <div class="wrapper about-content d-flex justify-content-around row">
+        <div class="about-left col-sm-6">
+          <img src="/img/logo.svg" alt="logo casa de la musica" class="logo">
+          <br>
+          <p class="text-justify os-animation visibility left-desc" data-animation="fadeIn" data-delay=".9s"><br>Lorem
+            ipsum dolor sit amet consectetur adipisicing
+            elit. Magni a iusto quisquam
+            corporis quo accusantium natus consequuntur necessitatibus dolores sapiente, quia officia fugit nemo fugiat
+            voluptatum nisi facere delectus illum! Voluptatibus odit ipsum asperiores totam sequi, sapiente quaerat
+            mollitia cupiditate. In sit, iure nemo aspernatur debiti lore sunt obcaecati molestiae!
+          </p>
+          <img class="img-thumbnail mt-4 os-animation visibility" data-animation="fadeIn" data-delay=".9s"
+            src="/img/wall.jpg" alt="Ozdoby na ścianie w głównej sali"><span
+            class="img-desc d-flex justify-content-end text-muted">Ozdoby na ścianie w głównej sali</span>
+        </div>
+        <div class="about-right col-sm-6">
+          <img class="img-thumbnail order-2 order-md-1 os-animation visibility" data-animation="fadeIn"
+            data-delay="1.4s" src="/img/casa-front.jpg" alt="Ogródek letni w Casa de la Musica">
+          <p class="text-justify order-1 order-md-2 os-animation visibility" data-animation="fadeIn" data-delay="1.4s">
+            <span class="img-desc d-flex justify-content-end text-muted">Ogródek letni w Casa de la Musica</span><br>
+            Lorem,
+            ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae sed molestias illo ad
+            repellendus maxime quisquam earum, incidunt explicabo? Porro adipisci aspernatur minima magni laudantiu
+            accusamus totam exercitationem nisi vitae dicta, illo nulla. Sed ab nam, animi illo ad aliquam quos minus!
+            Vitae voluptates voluptatem delectus maxime ut iure.</p>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, tenetur optio. Sed
+            atque illo labore? Asperiores perspiciatis sint, ducimus quisquam, a quia, illum doloribus eligendi facilis
+            molestias dolore ipsum veniam!</p>
+          git
+        </div>
+        <p class="text-center text-uppercase map-desc" id="map-nav">jesteśmy tutaj!<i
+            class="fas fa-map-marker-alt pl-2"></i></p>
+        <div id="map"></div>
+        <p class="pt-2">Rynek Ratusz 11/12,
+          50-106 Wrocław</p>
+      </div>
+
+    </div>
+
+  </section>
+  <section id="gallery" class="scroll-fix">
+    <div class="jumbotron jumbotron-fluid pt-0">
+      <h1 class="text-center mb-0">galeria</h1>
+      <div class="hero-img">
+        <div class="underline"></div>
+        <div class="hero-shadow"></div>
+        <div class="gallery-deck wrapper">
+
+
+          <!-- <hr class="mt-2 mb-5"> -->
+          <div class="row text-center text-lg-left">
+
+            <p class="gal-desc mt-4 text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ut unde
+              sequi omnis eius. Eligendi consectetur ab, accusantium voluptates nesciunt neque, maxime ut error vero
+              deserunt placeat officiis voluptate ipsa? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Veritatis dolor voluptatibus, amet illo qui deleniti sint quos sequi nam excepturi nisi tenetur atque.
+              Nisi assumenda impedit laborum quas ratione non?</p>
+            <div class="col-lg-3 col-md-4 col-6">
+
+              <a href="/img/casa-dol1.jpg" class="d-block mb-4 h-100 os-animation
+                visibility" data-animation="fadeIn" data-delay=".2s" data-lightbox="image-1" data-title="My caption"
+                data-lightbox="image-1" data-title="My caption"><img class="img-fluid img-thumbnail"
+                  src="/img/casa-dol1.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="/img/116238073_3507204062631704_897545846956274111_n.jpg"
+                class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn" data-delay=".4s"
+                data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail"
+                  src="/img/resized/116238073_3507204062631704_897545846956274111_n.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="/img/116291792_3507205379298239_2078137843711613541_n.jpg" #"
+                class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn" data-delay=".6s"
+                data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail"
+                  src="/img/resized/116291792_3507205379298239_2078137843711613541_n.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="/img/hero.jpg" class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn"
+                data-delay=".8s" data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail" src="/img/resized/hero.jpg" alt="">
+              </a>
+            </div>
+            <!-- <p class="gal-desc mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus fugit
+              temporibus perferendis eligendi veritatis corrupti ex obcaecati nisi impedit.</p> -->
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="img/wall.jpg" class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn"
+                data-delay=".8s" data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail" src="/img/resized/wall.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="img/casa-front.jpg" class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn"
+                data-delay=".6s" data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail" src="/img/resized/casa-front.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="img/14045_945136762171793_1760342920882128127_n.jpg"
+                class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn" data-delay=".4s"
+                data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail" src="/img/resized/14045_945136762171793_1760342920882128127_n.jpg"
+                  alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="img/13051608_1177986115553522_238373163180489046_n.jpg"
+                class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn" data-delay=".2s"
+                data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail"
+                  src="/img/resized/13051608_1177986115553522_238373163180489046_n.jpg" alt="">
+              </a>
+            </div>
+            <!-- <p class="gal-desc mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus fugit
+              temporibus perferendis eligendi veritatis corrupti ex obcaecati nisi impedit.</p> -->
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="img/12916920_1163497140335753_2435875564143454924_o.jpg"
+                class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn" data-delay=".2s"
+                data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail"
+                  src="/img/resized/12916920_1163497140335753_2435875564143454924_o.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="img/128392102_3882829058402534_8020303697534447892_o.jpg"
+                class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn" data-delay=".4s"
+                data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail"
+                  src="/img/resized/128392102_3882829058402534_8020303697534447892_o.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="img/12671615_1122316694453798_9017710852025621370_o.jpg"
+                class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn" data-delay=".6s"
+                data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail"
+                  src="/img/resized/12671615_1122316694453798_9017710852025621370_o.jpg" alt="">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="img/117713924_3548703705148406_1139740602717714467_n.jpg"
+                class="d-block mb-4 h-100 os-animation visibility" data-animation="fadeIn" data-delay=".8s"
+                data-lightbox="image-1" data-title="My caption">
+                <img class="img-fluid img-thumbnail"
+                  src="/img/resized/117713924_3548703705148406_1139740602717714467_n.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <!-- /.container -->
+        <div class="gal-footer">
+          <p class="text-center pt-2 pb-5 mb-0">zobacz więcej na <a href="https://facebook.com/casadelamusica.wroclaw"
+              target="_blank" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a> <i
+              class="fa fa-instagram" aria-hidden="true"></i></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- DRINK CARD SECTION  -->
+  <section id="drink-card" class="scroll-fix">
+    <div class="jumbotron jumbotron-fluid pt-0 mb-0">
+      <h1 class="text-center mb-0 menu-title">drink card</h1>
+
+      <div class="underline"></div>
+
+      <div class="menu-container">
+        <div class="text-intro">
+          <hr>
+          <!-- MENU DESCRIPTION -->
+          <p class="wrapper pt-5 pb-5 text-justify menu-desc"><span class="brand-name h2 text-uppercase">Casa de la
+              Musica</span> proponuje ponad <span class="font-italic">300</span> rodzajów alkoholi od
+            klasycznych do najbardziej wyszukanych trunków praktycznie z każdego zakątka Ziemi.
+
+            Posiadamy jedną z największych w Polsce kolekcji rumów włącznie z tzw. <span class="font-italic">"brudnymi
+              rumami"</span> dedykowanymi dla
+            wybitnych smakoszy i znawców.
+
+            Drinki firmowe <span class="brand-name h5 text-uppercase">Casa de la Musica</span> powstają wg naszych
+            oryginalnych receptur zawsze na bazie
+            wyselekcjonowanych świeżych owoców i są sporządzane bezpośrednio przed klientem. Zobacz jak wyglądają
+            niektóre z naszych koktajli.</p>
+          <span class="icon-divider d-flex justify-content-center pb-5">
+            <i class="fa fa-times p-1 ico-1" aria-hidden="true"></i>
+            <i class="fa fa-times p-1 ico-2" aria-hidden="true"></i>
+            <i class="fa fa-times p-1 ico-3" aria-hidden="true"></i>
+          </span>
+          <hr>
+        </div>
+        <!-- MENU NAV TABS -->
+        <ul class="nav nav-tabs text-center justify-content-center" id="myTab" role="tablist">
+          <li class="col-12 col-sm-6 col-md-4 col-lg-3 m-md-1 m-lg-2 nav-item">
+            <a class="nav-link active" id="cocktails-tab" data-toggle="tab" href="#cocktails" role="tab"
+              aria-controls="cocktails" aria-selected="true">Cocktails</a>
+          </li>
+          <li class="col-12 col-sm-6 col-md-4 col-lg-3 m-md-1 m-lg-2 nav-item">
+            <a class="nav-link" id="blended-tab" data-toggle="tab" href="#blended" role="tab" aria-controls="blended"
+              aria-selected="false">Blended</a>
+          </li>
+          <li class="col-12 col-sm-6 col-md-4 col-lg-3 m-md-1 m-lg-2 nav-item">
+            <a class="nav-link" id="muddled-tab" data-toggle="tab" href="#muddled" role="tab" aria-controls="muddled"
+              aria-selected="false">Muddled</a>
+          </li>
+          <li class="col-12 col-sm-6 col-md-4 col-lg-3 m-md-1 m-lg-2 nav-item">
+            <a class="nav-link" id="specials-tab" data-toggle="tab" href="#specials" role="tab" aria-controls="specials"
+              aria-selected="false">Specials</a>
+          </li>
+          <li class="col-12 col-sm-6 col-md-4 col-lg-3 m-md-1 m-lg-2 nav-item">
+            <a class="nav-link shake-it os-animation visibility" data-animation="headShake" data-delay=".5s"
+              id="shaked-tab" data-toggle="tab" href="#shaked" role="tab" aria-controls="shaked"
+              aria-selected="false">Shaked</a>
+          </li>
+          <li class="col-12 col-sm-6 col-md-4 col-lg-3 m-md-1 m-lg-2 nav-item">
+            <a class="nav-link" id="classics-tab" data-toggle="tab" href="#classics" role="tab" aria-controls="classics"
+              aria-selected="false">Classics</a>
+          </li>
+          <li class="col-12 col-sm-6 col-md-4 col-lg-6 m-md-1 m-lg-2 nav-item">
+            <a class="nav-link" id="virgin-tab" data-toggle="tab" href="#virgin-drinks" role="tab"
+              aria-controls="virgin-drinks" aria-selected="false">Virgin&nbspDrinks</a>
+          </li>
+          <!-- <li class="col-12 col-sm-6 col-md-4 col-lg-2 m-md-1 m-lg-2 nav-item">
+            <a class="nav-link" id="beer-tab" data-toggle="tab" href="#beer" role="tab" aria-controls="beer"
+              aria-selected="false">Beer</a>
+          </li> -->
+          <li class="col-12 col-sm-6 col-md-4 col-lg-6 m-md-1 m-lg-2 nav-item">
+            <a class="nav-link" id="others-tab" data-toggle="tab" href="#others" role="tab" aria-controls="others"
+              aria-selected="false">Others</a>
+          </li>
+        </ul>
+        <hr>
+        <!-- COCKTAILS CONTENT -->
+        <div class="tab-content wrapper" id="myTabContent">
+          <div class="tab-pane fade show active" id="cocktails" role="tabpanel" aria-labelledby="cocktails-tab">
+            <div class="wrapper-card menu-content d-flex justify-content-around row">
+              <div class="menu-left col-sm-12 col-md-6">
+                <h3 class="card-title text-center text-uppercase">cocktails</h3>
+
+
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-2 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">la candela</span>
+                  </div>
+                  <div class="dot-lead"></div>
+                  <span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    25,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p class="text-justify">
+                    Połączenie wytrawnego ginu Stock i słodkiej pasty kokosowej ze słodko-kwaśnym grejpfrutem i odrobiną
+                    syropu waniliowego. Dodatek soku z cytryny doskonale balansuje smak tego koktajlu
+                  </p>
+
+                  <!-- <div class="rating-menu d-flex justify-content-center">
+                    <span class="sweet pr-2">sweet</span><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="sour pl-2">sour</span>
+                  </div> -->
+                  <!-- <span class="badge sweet-color ml-2">sweet</span><span
+                    class="badge sour-color ml-2">sour</span><span class="badge bitter-color ml-2">bitter</span> -->
+                </div>
+                <hr>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">buena vista
+                      social club</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    25,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p class="text-justify"> Bazą tego koktajlu jest aromatyczna klasyczna Żołądkowa Gorzka, której
+                    wyrazistość podkreśla
+                    świeżo starty imbir, syrop z białej czekolady, syrop z marakuji oraz dodatek owoców: pomarańczy,
+                    cytryny i mango. Doskonale uzupełnienie stanowi piana z piwa.</p>
+
+                </div>
+                <hr>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Dark and
+                      Stormy</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    23,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p class="text-justify">Klasyczne połączenie rumu Havana Club 7 Anos i orzeźwiającego piwa imbirowego
+                    uwieńczone soczystą
+                    limonką.</p>
+
+                </div>
+                <hr>
+                <div class="linewrapper">
+                  <div>
+                    <a href="img/alko1.jpg" data-lightbox="image-1" data-title="My caption" class="camera-flash">
+                      <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"
+                        data-lightbox="image-1" data-title="My caption"></i>
+                    </a><span class="text-uppercase product-title">bahama
+                      mama</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    25,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p class="text-justify">
+                    Smakowita kombinacja rumu Havana Club 3 Anos, kokosu, grenadiny oraz tropikalnych soków na długo
+                    zapadnie Wam w pamięci.
+                  </p>
+                </div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#others" role="tab"
+                        aria-controls="others" aria-selected="true"><i class="fa fa-chevron-left"
+                          aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#blended" role="tab"
+                        aria-controls="others" aria-selected="true"><i class="fa fa-chevron-right"
+                          aria-hidden="true"></i></a></li>
+                    </li>
+
+                </nav>
+
+
+
+              </div>
+              <div class="wrapper-card menu-right d-none d-md-flex col-sm-6">
+                <div class="cocktails-img">
+                  <div class="cocktails-shadow"></div>
+
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- BLENDED COCKTAILS CONTENT -->
+
+          <div class="tab-pane fade" id="blended" role="tabpanel" aria-labelledby="blended-tab">
+            <div class="wrapper-card menu-content d-flex justify-content-around row">
+              <div class="menu-left col-sm-12 col-md-6">
+                <h3 class="card-title text-center text-uppercase">blended</h3>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">sueno cubano</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    35,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Wódka Stock Prestige w połączeniu z soczystym miąższem arbuza, likierem Passoa, likierem arbuzowym
+                    i słodką grenadiną. Do tego dla zbalansowania słodyczy sok z cytryny i sok z pomarańczy.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">el comendante</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    37,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Tropikalna, kwaskowata marakuja w likierze Passoa idealnie łączy się ze słodkim owocem mango.
+                    Dzięki delikatnemu smakowi rumu Havana Club 3 Anos i dodaniu soku pomarańczowego - koktajl ten ma
+                    wyjątkowo orzewiający i dobrze zbalansowany smak.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Chica Cubana</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    31,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Stock Gin i Campari oraz Passoa w połączeniu ze słodko-kwaśnym, rubinowym grejpfrutem, sokiem z
+                    cytryny i syropem grenadine nadają temu koktajlowi wytrawny, wyrafinowany smak.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Casa de la musica</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    37,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>
+                    Podstawą tego koktajlu jest rum Havana Club 7 Anos, sok z cytryny, słodka brzoskwinia i marakuja,
+                    których smak równoważy słodycz truskawkowego likieru.
+                  </p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">red rumba</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    31,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>
+                    Czerwona, słodka kombinacja smaków łącząca aromatyczne maliny z żurawinową wódką Stock, likierem
+                    truskawkowym i sokiem bananowym.
+                  </p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">guantanamo</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    31,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p> Deserowy, mleczny koktajl na bazie rumu Havana Club 3 Anos, którego słodki smak wzmacnia dodanie
+                    likieru kawowego, bananowego i kokosowego oraz mleka.
+                  </p>
+                </div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#cocktails" role="tab"
+                        aria-controls="blended" aria-selected="true"><i class="fa fa-chevron-left"
+                          aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#muddled" role="tab"
+                        aria-controls="muddled" aria-selected="true"><i class="fa fa-chevron-right"
+                          aria-hidden="true"></i></a></li>
+                    </li>
+
+                </nav>
+
+              </div>
+
+              <div class="wrapper-card menu-right d-none d-md-flex col-sm-6">
+                <div class="blended-img">
+                  <div class="cocktails-shadow"></div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <!-- MUDDLED COCKTAILS CONTENT  -->
+          <div class="tab-pane fade" id="muddled" role="tabpanel" aria-labelledby="muddled-tab">
+            <div class="wrapper-card menu-content d-flex justify-content-around row">
+              <div class="menu-left col-md-6">
+                <h3 class="card-title text-center text-uppercase pb-sm-1 pb-md-2">muddled</h3>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">che guevara</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    29,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Mieszanka słodkiego likieru pomarańczowego na bazie whisky, morelowego likieru, syropu z marakuji
+                    oraz pikantnego, lekko słodkawego bourbonu Jim Beam. Dodatek świeżego mango, kwaskowej limonki i
+                    brązowego cukru nadaje koktajlowi orzeźwiający słodko-kwaśny smak.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">strawberrito</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    29,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Wariacja Mojito z dodatkiem słodkich truskawek.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">havana by night</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    28,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Kombinacja cytrusowej świeżości i żurawionowej goryczki zawartej w wódkach smakowych Stock z
+                    likierem Passoa przełamana jest w tym koktajlu słodkim lecz subtelnym smakiem grenadiny z wytrawnym
+                    tonikiem Kinley oraz limonki i cukru trzcinowego</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">ciro redondo</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    27,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Typowo wytrawny koktajl z ginem Stock, w którym gorzkie w smaku Campari idealnie współgra ze
+                    słodkim likierem porzeczkowym, tonikiem, limonką i cukrem trzcinowym.</p>
+                </div>
+
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#blended" role="tab"
+                        aria-controls="blended" aria-selected="true"><i class="fa fa-chevron-left"
+                          aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#specials" role="tab"
+                        aria-controls="specials" aria-selected="true"><i class="fa fa-chevron-right"
+                          aria-hidden="true"></i></a></li>
+                    </li>
+
+                </nav>
+              </div>
+              <div class="wrapper-card menu-right d-none d-md-flex col-sm-6">
+                <div class="muddled-img">
+                  <div class="cocktails-shadow"></div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+          <!-- SPECIALS CONTENT -->
+          <div class="tab-pane fade" id="specials" role="tabpanel" aria-labelledby="specials-tab">
+
+            <div class="wrapper-card menu-content d-flex justify-content-around row">
+              <div class="menu-left col-sm-12 col-md-6">
+                <h3 class="card-title text-center text-uppercase">specials</h3>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">absolut elyx ginger
+                      mix</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    20,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Wódka klasy ultra-premium Absolut Elyx w połączeniu ze świeżym imbirem, syropem cukrowym i soczystą
+                    cytryną tworzy niezapomniany smak.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Casa colada</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    38,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Specjał Casa de la Musica podawany w soczystym ananasie. Idealnie komponuje się z rumem Havana 3
+                    Anos, sokiem ananasowym oraz pastą kokosową.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Melonick</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    38,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Kolejna odsłona tego co najlepsze w Casa de la Musica. Wódka Stock Prestige w towarzystwie likieru
+                    melonowego i brzoskwiniowego serwowana w świeżym melonie z sokiem pomarańczowym.</p>
+                </div>
+
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#muddled" role="tab"
+                        aria-controls="muddled" aria-selected="true"><i class="fa fa-chevron-left"
+                          aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#shaked" role="tab"
+                        aria-controls="shaked" aria-selected="true"><i class="fa fa-chevron-right"
+                          aria-hidden="true"></i></a></li>
+                    </li>
+
+                </nav>
+              </div>
+              <div class="wrapper-card menu-right d-none d-md-flex col-sm-6">
+                <div class="cocktails-img">
+                  <div class="cocktails-shadow"></div>
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- SHAKED CONTENT -->
+          <div class="tab-pane fade" id="shaked" role="tabpanel" aria-labelledby="shaked-tab">
+
+            <div class="wrapper-card menu-content d-flex justify-content-around row">
+              <div class="menu-left col-sm-12 col-md-6">
+                <h3 class="card-title text-center text-uppercase">shaked</h3>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">jim bim whiskey
+                      sour</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    22,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p> Klasyk, którego nie mogło zabraknąć! Słodki bourbon Jim Beam, świeży sok z limonki, syrop cukrowy
+                    i
+                    białko jajka zaskoczą nawet najbardziej wybrednych smakoszy.</p>
+                </div>
+
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Daiquiri classic</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    31,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p> Soczysty, orzeźwiający koktajl o wyrafinowanym smaku i aromacie. Połączenie linonki i syropu
+                    cukrowego uwydatnia zawarte w rumie Havana Club 3 Anos nutki wanilii, orzechów, cynamonu i innych
+                    przypraw. Daiquiri było ulubionym drinkiem Ernesta Hemingway'a, drink ten upodobał sobie także
+                    prezydent John F. Kennedy.</p>
+
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">margarita classic</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    30,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>
+                    Meksykański klasyk, który łączy w sobie specyficzną goryczkę tequili Olmeca ze słodyczą likieru
+                    pomarańczowego i orzeźwiającym sokiem z limonek.
+                  </p>
+
+                </div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#specials" role="tab"
+                        aria-controls="specials" aria-selected="true"><i class="fa fa-chevron-left"
+                          aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#classics" role="tab"
+                        aria-controls="classics" aria-selected="true"><i class="fa fa-chevron-right"
+                          aria-hidden="true"></i></a></li>
+                    </li>
+
+                </nav>
+              </div>
+              <div class="wrapper-card menu-right d-none d-md-flex col-sm-6">
+                <div class="cocktails-img">
+                  <div class="cocktails-shadow"></div>
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- CLASSICS CONTENT -->
+          <div class="tab-pane fade" id="classics" role="tabpanel" aria-labelledby="classics-tab">
+
+            <div class="wrapper-card menu-content d-flex justify-content-around row">
+              <div class="menu-left col-sm-12 col-md-6">
+                <h3 class="card-title text-center text-uppercase">classics</h3>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Caipirinha</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    26,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p> Klasyczny, wywodzący się z Brazylii drink na bazie Cachacy (alkohol z trzciny cukrowej)
+                    porównywany z
+                    Mojito. Niezwykle orzeźwiający i smaczny. Skład: Cachaca, limonki, cukier brązowy, lud kruszony.
+                  </p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">cuba libre</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    20,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p> Klasyczne i proste połączenie trzech składników: rumu Havana Club Especial, Coca Coli oraz świeżej
+                    i
+                    soczystej limonki nie zawiedzie nawet najbardziej wymagających smakoszy.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">mojito</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    27,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p> Jeden z najpopularniejszych drinków świata, wywodzący się ze słonecznej Kuby. W smaku wyśmienity i
+                    niezwykle orzeźwiający. Przygotowany na bazie rumu Havana Club 3 Anos z dodatkiem soku z limonki,
+                    syropu cukrowego oraz mięty. </p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Pina Colada</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    32,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>Nazwa dosłownie oznacza "przecedzony ananas". Havana Club 3 Anos i kokosowy likier Malibu,
+                    połączone z pastą kokosową i świeżymi cząstkami ananasa tworzą wyrazisty słodki koktajl.</p>
+                  <p class="text-muted">Dostępne wersje: klasyczna, melonowa, brzoskwiniowa, bananowa.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Frozen Daiquiri</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    31,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p> Soczysty, orzeźwiający koktajl o wyrafinowanym smaku i aromacie. Połączenie linonki i syropu
+                    cukrowego uwydatnia zawarte w rumie Havana Club 3 Anos nutki wanilii, orzechów, cynamonu i innych
+                    przypraw. Daiquiri było ulubionym drinkiem Ernesta Hemingway'a, drink ten upodobał sobie także
+                    prezydent John F. Kennedy.</p>
+                  <p class="text-muted">Dostępne wersje: klasyczna, truskawkowa, mango, malinowo-miętowa.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">frozen margarita</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    30,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>
+                    Meksykański klasyk, który łączy w sobie specyficzną goryczkę tequili Olmeca ze słodyczą likieru
+                    pomarańczowego i orzeźwiającym sokiem z limonek.
+                  </p>
+                  <p class="text-muted">
+                    Dostępne wersje: klasyczna, truskawkowa, mango, bananowa.
+                  </p>
+                </div>
+
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#shaked" role="tab"
+                        aria-controls="shaked" aria-selected="true"><i class="fa fa-chevron-left"
+                          aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#virgin-drinks" role="tab"
+                        aria-controls="virgin-drinks" aria-selected="true"><i class="fa fa-chevron-right"
+                          aria-hidden="true"></i></a></li>
+                    </li>
+
+                </nav>
+              </div>
+              <div class="wrapper-card menu-right d-none d-md-flex col-sm-6">
+                <div class="classics-img">
+                  <div class="cocktails-shadow"></div>
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- VIRGIN DRINKS CONTENT -->
+          <div class="tab-pane fade" id="virgin-drinks" role="tabpanel" aria-labelledby="virgin-tab">
+
+            <div class="wrapper-card menu-content d-flex justify-content-around row">
+              <div class="menu-left col-sm-12 col-md-6">
+                <h3 class="card-title text-center text-uppercase">virgin drinks</h3>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">fruit cocktail</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    18,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>
+                    Tropikalny, orzeźwiający koktajl bezalkoholowy na bazie cząstek pomarańczy, limonek, brązowego
+                    cukru, syropu z marakuji i soku z czerwonych grejpfrutów. Dodanie Sprite'a przełamuje kwaskowy smak
+                    pozostałych składników.
+                  </p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">Fresh maker</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    18,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>
+                    Mieszanka soków z owoców tropikalnych, uzupełniona o cząstki świeżego kiwi, limonek oraz brązowy
+                    cukier i syrop z marakuji.
+                  </p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">golden five</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    18,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>
+                    Słodkie połączenie mrożonych truskawek zblendowanych ze świeżym bananem i sokiem ananasowym oraz
+                    syropem kokosowmy i grenadiną.
+                  </p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">virgin pina colada</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    18,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>
+                    Bezalkoholowa wersja słodkiego klasyka z dominującym smakiem ananasa i kokosa.
+                  </p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">dulce sabor</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    18,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>połączenie świeżo wyciskanego soku z pomarańczy, cząstek świeżego ananasa i syropu z marakuji.</p>
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">virgin mojito</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    18,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <p>
+                    Wersja bezalkoholowa naszego mojito. Sok jabłkowy, najlepszej jakości woda gazowana, limonki, cukier
+                    brązowy i mięta tworzą spójną i orzeźwiającą całość.
+                  </p>
+                </div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#classics" role="tab"
+                        aria-controls="classics" aria-selected="true"><i class="fa fa-chevron-left"
+                          aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#others" role="tab"
+                        aria-controls="others" aria-selected="true"><i class="fa fa-chevron-right"
+                          aria-hidden="true"></i></a></li>
+                    </li>
+
+                </nav>
+
+              </div>
+              <div class="wrapper-card menu-right d-none d-md-flex col-sm-6">
+                <div class="virgin-img">
+                  <div class="cocktails-shadow"></div>
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- OTHERS CONTENT -->
+
+          <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="others-tab">
+
+            <div class="wrapper-card menu-content d-flex justify-content-around row">
+              <div class="menu-left col-sm-12 col-md-6">
+                <h3 class="card-title text-center text-uppercase">inne</h3>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">mojito</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    27,-
+                  </div>
+                </div>
+                <div class="item-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum nesciunt eaque libero alias
+                  quibusdam eum doloremque aperiam exercitationem delectus rerum dignissimos, in repellendus magnam
+                  reprehenderit ut nemo dolorum. Quidem!
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">mojito</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    9.9
+                  </div>
+                </div>
+                <div class="item-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum nesciunt eaque libero alias
+                  quibusdam eum doloremque aperiam exercitationem delectus rerum dignissimos, in repellendus magnam
+                  reprehenderit ut nemo dolorum. Quidem!
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">mojito</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    9.9
+                  </div>
+                </div>
+                <div class="item-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum nesciunt eaque libero alias
+                  quibusdam eum doloremque aperiam exercitationem delectus rerum dignissimos, in repellendus magnam
+                  reprehenderit ut nemo dolorum. Quidem!
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">mojito</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    9.9
+                  </div>
+                </div>
+                <div class="item-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum nesciunt eaque libero alias
+                  quibusdam eum doloremque aperiam exercitationem delectus rerum dignissimos, in repellendus magnam
+                  reprehenderit ut nemo dolorum. Quidem!
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">mojito</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    9.9
+                  </div>
+                </div>
+                <div class="item-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum nesciunt eaque libero alias
+                  quibusdam eum doloremque aperiam exercitationem delectus rerum dignissimos, in repellendus magnam
+                  reprehenderit ut nemo dolorum. Quidem!
+                </div>
+                <div class="linewrapper">
+                  <div>
+                    <i class="d-none d-sm-inline fas fa-camera-retro pr-sm-1 pr-lg-3 fa-gradient"></i> <span
+                      class="text-uppercase product-title">mojito</span>
+                  </div>
+                  <div class="dot-lead"></div><span class="capacity text-muted">400ml</span>
+                  <div class="price">
+                    9.9
+                  </div>
+                </div>
+                <div class="item-desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum nesciunt eaque libero alias
+                  quibusdam eum doloremque aperiam exercitationem delectus rerum dignissimos, in repellendus magnam
+                  reprehenderit ut nemo dolorum. Quidem!
+                </div>
+
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#virgin-drinks" role="tab"
+                        aria-controls="virgin-drinks" aria-selected="true"><i class="fa fa-chevron-left"
+                          aria-hidden="true"></i></a></li>
+                    <li class="page-item"><a class="page-link" data-toggle="tab" href="#cocktails" role="tab"
+                        aria-controls="cocktails" aria-selected="true"><i class="fa fa-chevron-right"
+                          aria-hidden="true"></i></a></li>
+                    </li>
+
+                </nav>
+              </div>
+              <div class="wrapper-card menu-right d-none d-md-flex col-sm-6">
+                <div class="cocktails-img">
+                  <div class="cocktails-shadow"></div>
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+  </section>
+  <footer id="contact">
+
+    <div class="footer-middle">
+
+      <div class="container">
+        <div class="d-flex row">
+          <div class="col-md-3 col-sm-6 pt-3 text-center text-md-left">
+            <!--Column1-->
+            <div class="footer-pad">
+              <h4 class="pb-3 contact-title text-center text-md-left">Adres</h4>
+              <p class="">Rynek Ratusz 11/12,
+                50-106 Wrocław</p>
+              <a href="#map-nav">Znajdź nas na mapie!</a>
+
+
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 pt-3 text-center text-md-left">
+            <!--Column1-->
+            <div class="footer-pad">
+              <h4 class="pb-3 contact-title text-center text-md-left">Kontakt</h4>
+              <p>Masz pytanie?</p>
+              <p><i class="fas fa-phone pt-2" aria-hidden="true"></i> +48 661 970 337<br>
+                <p class="text-muted">najłatwiej nas złapać po 15:00 <i class="fa fa-smile-o" aria-hidden="true"></i>
+                </p>
+              </p>
+              <p>Napisz do nas:</p>
+              <p><i class="fas fa-at pt-2" aria-hidden="true"></i>casa@casadelamusica.pl</p>
+
+
+
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 pt-3 text-center text-md-left">
+            <!--Column1-->
+            <div class="footer-pad">
+              <h4 class="pb-3 contact-title text-center text-md-left">Współpraca</h4>
+              <p> Jesteś zainteresowany współpracą z naszym lokalem, masz ciekawy pomysł, albo szukasz pracy? Skontaktuj
+                się z:</p>
+              <p>Tomasz Mogilski</p>
+              <p><i class="fas fa-phone pt-2" aria-hidden="true"></i> +48 601 710 943</p>
+              <p><i class="fas fa-at pt-2" aria-hidden="true"></i>t.mogilski@novocaina.com</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 pt-3 pb-3 text-center text-md-left">
+            <h4 class="pb-3 contact-title text-center text-md-left">Social Media</h4>
+            <p>Bądź na bieżąco i zobacz co słychać na naszych social mediach. </p>
+            <ul class="social-network social-circle d-flex justify-content-center justify-content-md-start">
+              <li><a href="https://facebook.com/casadelamusica.wroclaw" target="_blank" class="icoFacebook"
+                  title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="icoInsta" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#" class="icoTrip" title="Tripadvisor"><i class="fa fa-tripadvisor"></i></a></li>
+            </ul>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 copy">
+            <p class="text-center">&copy; Copyright 2020 - Casa de la Musica. Wszystkie prawa zastrzeżone.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- <section id="contact" class="scroll-fixx">
+    <div class="jumbotron jumbotron-fluid pt-0 mb-0 pb-0">
+      <div class="contact-img">
+        <div class="hero-shadow"></div>
+
+        <h1 class="text-center mb-0 menu-title">Kontakt</h1>
+
+        <div class="underline"></div>
+        <div class="wrapper d-flex row">
+          <div class="contact-left col-12 col-sm-6 col-md-4 order-sm-1">
+            <i class="fas fa-phone d-flex justify-content-center pb-3"></i>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi et rem qui voluptates sequi quaerat aut
+              incidunt rerum? Animi ad iure laboriosam ullam quasi tempora sequi officia! Debitis, veniam ducimus.</p>
+          </div>
+          <div
+            class="contact-center col-12 col-sm-12 col-md-4 order-sm-3 order-md-2 justify-content-sm-center align-items-sm-center">
+            <h4 class="text-center text-uppercase contact-media pt-5">social media</h4>
+          </div>
+          <div class="contact-right col-12 col-sm-6 col-md-4 order-sm-2 order-md-3  justify">
+            <i class="fas fa-at d-flex justify-content-center pb-3"></i>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi et rem qui voluptates sequi quaerat aut
+              incidunt rerum? Animi ad iure laboriosam ullam quasi tempora sequi officia! Debitis, veniam ducimus.</p>
+          
+
+          </div>
+          <div class="map-container col-12 order-4">
+          <h5 class="text-center">jesteśmy tutaj!</h5>
+          <div id="map"></div>
+        </div>
+        </div>
+
+       
+      </div>
+
+    </div>
+
+  </section>
+   -->
+</body>
+
+
+
+
+<!-- <div class="vh" style="height: 100vh"></div> -->
+
+<script src="js/lightbox-plus-jquery.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="/js/animation.js"></script>
+<script src="/js/jquery.waypoints.min"></script>
+<script src="js/lightbox.js"></script>
+<script src="/js/main.js"></script>
+
+</body>
+
+</html>

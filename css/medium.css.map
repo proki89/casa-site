@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,WADO,CACP,MAAM,CAAC;EACH,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,OAAO;EACnB,aAAa,EAAE,GAAG;CAAG;;AAJ7B,AAKI,WALO,CAKP,cAAc,CAAC;EACX,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;CAAG;;AAEzB,AAAA,IAAI,CAAC;EACD,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;CAAG",
+    "sources": [
+        "../sass/medium.sass"
+    ],
+    "names": [],
+    "file": "medium.css"
+}

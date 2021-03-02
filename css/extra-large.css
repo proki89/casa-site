@@ -1,0 +1,65 @@
+nav a {
+  font-size: 27px;
+}
+
+nav .navbar-brand {
+  font-size: 27px;
+}
+
+header h1 {
+  font-size: 4rem;
+}
+
+header .hero-text p {
+  font-size: 27px;
+}
+
+#aboutus p {
+  font-size: 27px;
+}
+
+#aboutus span {
+  font-size: 22px;
+}
+
+#gallery p {
+  font-size: 27px;
+}
+
+#gallery .fa.fa-facebook:before {
+  content: "\f39e";
+  font-size: 25px;
+}
+
+#drink-card p {
+  font-size: 24px;
+}
+
+#drink-card .menu-desc {
+  font-size: 27px;
+}
+
+#drink-card .nav-link {
+  font-size: 27px;
+}
+
+#drink-card .product-title {
+  font-size: 27px;
+}
+
+#drink-card .capacity {
+  font-size: 22px;
+}
+
+#drink-card .price {
+  font-size: 25px;
+}
+
+#drink-card .card-title {
+  font-size: 30px;
+}
+
+#drink-card i {
+  padding: 25px;
+}
+/*# sourceMappingURL=extra-large.css.map */
